@@ -1,0 +1,58 @@
+{
+    "namespace_author":"BlueBack",
+    "namespace_package":"PoolList",
+    "git_url":"https://github.com/bluebackblue/UpmPoolList",
+    "git_api":"https://api.github.com/repos/bluebackblue/UpmPoolList",
+    "git_path":"BlueBackPoolList/Assets/UPM",
+    "discription_simple":"オーディオクリップ操作",
+    "discription_detal":[
+        "オーディオクリップ操作",
+        "* BGMクロスフェード"
+    ],
+    "keyword":[
+        "poollist"
+    ],
+    "changelog":[
+        "# Changelog",
+        "",
+        "## [0.0.0] - 2021-10-08",
+        "### Changes",
+        "- Init",
+        ""
+    ],
+    "root_readmemd_path":"../../README.md",
+    "need_unity_version":"2020.1",
+    "asmdef_runtime":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "use":"use",
+                "package_fullname":"BlueBack.UnityPlayerLoop",
+                "url":"https://github.com/bluebackblue/UpmUnityPlayerLoop"
+            }
+        ]
+    },
+    "asmdef_editor":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "use":"use",
+                "package_fullname":"BlueBack.PoolList",
+                "url":"https://github.com/bluebackblue/UpmPoolList"
+            }
+        ]
+    },
+    "asmdef_sample":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "use":"use",
+                "package_fullname":"BlueBack.PoolList",
+                "url":"https://github.com/bluebackblue/UpmPoolList"
+            }
+        ]
+    }
+}
