@@ -79,7 +79,7 @@ namespace Samples.PoolList.Bgm
 		*/
 		public void FixedUpdate()
 		{
-			//V‹Kì¬B
+			//æ–°è¦ä½œæˆã€‚
 			if(UnityEngine.Random.value >= 0.995f){
 				if(this.list.list_use.Count < this.list.list_free.Count){
 					System.Collections.Generic.LinkedListNode<Item> t_node = this.list.Create();
@@ -90,29 +90,29 @@ namespace Samples.PoolList.Bgm
 				}
 			}
 
-			//XVB
+			//æ›´æ–°ã€‚
 			{
 				System.Collections.Generic.LinkedListNode<Item> t_node = this.list.list_use.First;
 				while(t_node != null){
 					System.Collections.Generic.LinkedListNode<Item> t_node_next = t_node.Next;
 
-					//ƒAƒCƒeƒ€‚ÌXVB
+					//ã‚¢ã‚¤ãƒ†ãƒ ã®æ›´æ–°ã€‚
 					t_node.Value.life--;
 
 					if(t_node.Value.life <= 0){
 						this.list.Delete(t_node);
 					}else{
-						//ƒoƒbƒtƒ@‚ÌXVB
+						//ãƒãƒƒãƒ•ã‚¡ã®æ›´æ–°ã€‚
 						this.list.buffer[t_node.Value.index].data = t_node.Value.life;
 					}
 					t_node = t_node_next;
 				}
 			}
 
-			//Œ„ŠÔ‚ğ–„‚ß‚éBƒoƒbƒtƒ@‚à“ü‚ê‘Ö‚¦‚éB
+			//éš™é–“ã‚’åŸ‹ã‚ã‚‹ã€‚ãƒãƒƒãƒ•ã‚¡ã‚‚å…¥ã‚Œæ›¿ãˆã‚‹ã€‚
 			this.list.GcWithSwapBuffer();
 
-			//debugview‚ÌXVB
+			//debugviewã®æ›´æ–°ã€‚
 			{
 				this.debugview.Clear();
 				for(int ii=0;ii<this.list.list_use.Count;ii++){
