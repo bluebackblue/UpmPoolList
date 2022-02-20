@@ -8,13 +8,14 @@ MIT License
 
 ## 依存 / 使用ライセンス等
 ### ランタイム
+* https://github.com/bluebackblue/UpmUnityPlayerLoop
 ### エディター
 * https://github.com/bluebackblue/UpmPoolList
 ### サンプル
 * https://github.com/bluebackblue/UpmPoolList
 
 ## 動作確認
-Unity 2021.2.0b16
+Unity 2022.1.0b2
 
 ## UPM
 ### 最新
