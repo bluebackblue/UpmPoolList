@@ -1,12 +1,12 @@
 
 
-/** Samples.PoolList.Bgm
+/** BlueBack.PoolList.Samples.Simple
 */
-namespace Samples.PoolList.Bgm
+namespace BlueBack.PoolList.Samples.Simple
 {
-	/** TestScene_Monobehaviour
+	/** Main_Monobehaviour
 	*/
-	public sealed class TestScene_Monobehaviour : UnityEngine.MonoBehaviour
+	public sealed class Main_Monobehaviour : UnityEngine.MonoBehaviour
 	{
 		/** debugview
 		*/
