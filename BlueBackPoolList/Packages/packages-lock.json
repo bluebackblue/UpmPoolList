@@ -5,35 +5,35 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "525e567ed2a40cdcb0ab9474fa28e85ca1920d72"
+      "hash": "40c3624dea46629ecb1f9645baa59b10afd179ac"
     },
     "blueback.code": {
       "version": "https://github.com/bluebackblue/UpmCode.git?path=BlueBackCode/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3d217e4d64b2f7e9c8788da62420e11ff4596e63"
+      "hash": "69782eb2dc4b577a5dab4fa7bc5777174e1d2a23"
     },
     "blueback.jsonitem": {
       "version": "https://github.com/bluebackblue/UpmJsonItem.git?path=BlueBackJsonItem/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5f9c90f7f604e330df574924873c058cbe8dc9de"
+      "hash": "797d3a9e090ad966587eced1d1c32843be862691"
     },
     "blueback.unityplayerloop": {
       "version": "https://github.com/bluebackblue/UpmUnityPlayerLoop.git?path=BlueBackUnityPlayerLoop/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "d023e98c303754efbdd1b3c69e2c099250f5b330"
+      "hash": "09567e8bfbf2c6d23fb77d66f18227a3ed459e84"
     },
     "blueback.versionmanager": {
       "version": "https://github.com/bluebackblue/UpmVersionManager.git?path=BlueBackVersionManager/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7f6168bb93b644b89ac113a19fbad6a4b4fff43b"
+      "hash": "7605f865906d5679f5be454e4d22a295757cbdb1"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
@@ -43,7 +43,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.14",
+      "version": "2.0.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -52,7 +52,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.30",
+      "version": "1.1.31",
       "depth": 1,
       "source": "registry",
       "dependencies": {
