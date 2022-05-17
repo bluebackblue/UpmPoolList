@@ -22,7 +22,7 @@ namespace BlueBack.PoolList.Editor
 
 		/** MenuItem_UpdatePackage_Develop
 		*/
-		#if(!DEF_USER_BLUEBACK_POOLLIST)
+		#if(!USERDEF_BLUEBACK_POOLLIST)
 		[UnityEditor.MenuItem("BlueBack/PoolList/UpdatePackage/Develop")]
 		#endif
 		public static void MenuItem_UpdatePackage_Develop()
@@ -40,7 +40,7 @@ namespace BlueBack.PoolList.Editor
 
 		/** MenuItem_UpdatePackage_Last
 		*/
-		#if(!DEF_USER_BLUEBACK_POOLLIST)
+		#if(!USERDEF_BLUEBACK_POOLLIST)
 		[UnityEditor.MenuItem("BlueBack/PoolList/UpdatePackage/Last " + Version.packageversion)]
 		#endif
 		public static void MenuItem_UpdatePackage_Last()

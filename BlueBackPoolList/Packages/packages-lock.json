@@ -5,35 +5,35 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8b1e3d4a7566b828fde9462b77ae98fc16f1fa3c"
+      "hash": "cf474d72320ba06fe94a38d651ed1eae93d7447a"
     },
     "blueback.code": {
       "version": "https://github.com/bluebackblue/UpmCode.git?path=BlueBackCode/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "2ee438df8eb7a858b867588036e4c93b304a25cb"
+      "hash": "854f9232bb48e1ab7f0aba290acd86a98dcafae9"
+    },
+    "blueback.install": {
+      "version": "https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5e6b5a6f636a8f25cc7448023bca7700d3401aaa"
     },
     "blueback.jsonitem": {
       "version": "https://github.com/bluebackblue/UpmJsonItem.git?path=BlueBackJsonItem/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "797d3a9e090ad966587eced1d1c32843be862691"
-    },
-    "blueback.unityplayerloop": {
-      "version": "https://github.com/bluebackblue/UpmUnityPlayerLoop.git?path=BlueBackUnityPlayerLoop/Assets/UPM",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "893459e3d2a22fbf80d35c738745144afc968aff"
+      "hash": "b732654d4c3a4b3d386c3b2b3a87ffc9927d7e0d"
     },
     "blueback.versionmanager": {
       "version": "https://github.com/bluebackblue/UpmVersionManager.git?path=BlueBackVersionManager/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "d4d5156fff22c817bfc02bc635215b68d759cad4"
+      "hash": "cbce8f4f9deed61c46cf98579a50e61938983101"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
