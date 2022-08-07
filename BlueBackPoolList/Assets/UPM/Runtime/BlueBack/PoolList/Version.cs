@@ -21,7 +21,7 @@ namespace BlueBack.PoolList
 
 		/** packageversion
 		*/
-		public const string packageversion = "0.0.4";
+		public const string packageversion = "0.0.5";
 
 		/** GetPackageVersion
 		*/

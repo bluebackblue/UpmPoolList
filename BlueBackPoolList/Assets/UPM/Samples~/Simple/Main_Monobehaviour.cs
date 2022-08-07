@@ -14,7 +14,7 @@ namespace BlueBack.PoolList.Samples.Simple
 
 		/** Item
 		*/
-		public class Item : BlueBack.PoolList.BufferList_Item_Base
+		public sealed class Item : BlueBack.PoolList.BufferList_Item_Base
 		{
 			/** index
 			*/

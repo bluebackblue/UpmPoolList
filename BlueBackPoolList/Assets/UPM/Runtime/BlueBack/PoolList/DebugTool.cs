@@ -17,7 +17,7 @@ namespace BlueBack.PoolList
 	{
 		/** assertproc
 		*/
-		#if(DEF_BLUEBACK_POOLLIST_ASSERT)
+		#if(DEF_BLUEBACK_ASSERT)
 		public static void DefaultAssertProc(System.Exception a_exception,string a_message)
 		{
 			if(a_message != null){
@@ -36,7 +36,7 @@ namespace BlueBack.PoolList
 
 		/** logproc
 		*/
-		#if(DEF_BLUEBACK_POOLLIST_LOG)
+		#if(DEF_BLUEBACK_LOG)
 		public static void DefaultLogProc(string a_message)
 		{
 			UnityEngine.Debug.Log(a_message);
@@ -47,7 +47,7 @@ namespace BlueBack.PoolList
 
 		/** Assert
 		*/
-		#if(DEF_BLUEBACK_POOLLIST_ASSERT)
+		#if(DEF_BLUEBACK_ASSERT)
 		public static void Assert(bool a_flag,System.Exception a_exception = null)
 		{
 			if(a_flag != true){
@@ -58,7 +58,7 @@ namespace BlueBack.PoolList
 
 		/** Assert
 		*/
-		#if(DEF_BLUEBACK_POOLLIST_ASSERT)
+		#if(DEF_BLUEBACK_ASSERT)
 		public static void Assert(bool a_flag,string a_message)
 		{
 			if(a_flag != true){
@@ -67,7 +67,7 @@ namespace BlueBack.PoolList
 		}
 		#endif
 
-		#if(DEF_BLUEBACK_POOLLIST_LOG)
+		#if(DEF_BLUEBACK_LOG)
 		public static void Log(string a_message)
 		{
 			DebugTool.logproc(a_message);
