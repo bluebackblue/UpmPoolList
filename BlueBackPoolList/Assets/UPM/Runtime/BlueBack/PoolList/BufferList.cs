@@ -85,7 +85,7 @@ namespace BlueBack.PoolList
 				this.list_use.Remove(a_item);
 				this.list_free.AddLast(a_item);
 			}else{
-				#if(DEF_BLUEBACK_ASSERT)
+				#if(DEF_BLUEBACK_DEBUG_ASSERT)
 				DebugTool.Assert(false,"null");
 				#endif
 			}
